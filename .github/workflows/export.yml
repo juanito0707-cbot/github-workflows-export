@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send /export command
-        run: curl -X POST "https://api.telegram.org/8475571525:AAHBl4R9qYPiK9hBtRAPQV-qZWxqwfOn6N4/sendMessage?chat_id=8475571525&text=/export"
+        run: curl -X POST "https://api.telegram.org/bot8475571525:AAHBl4R9qYPiK9hBtRAPQV-qZWxqwfOn6N4/sendMessage?chat_id=8475571525&text=/export"
         
